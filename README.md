@@ -7,17 +7,22 @@ The objective of this project is to empower Altliq Technologies with a comprehen
 ![HR_Analytics_Dashboard!](HR_Analytics_Dashboard.png)
 
 # Project Overview:
-*Data Source:
+* Data Source:
+  
 The dataset, available in Excel format, includes employee code, names, and dates for a three-month period, with each date represented in separate columns.
 
-*Data Preparation:
+* Data Preparation:
+  
 The initial step involves importing the data into Power BI and performing essential data cleaning tasks, such as removing duplicates.
 
-*Data Transformation:
+* Data Transformation:
+  
 Extensive data transformation takes place in Power Query, including unpivoting dates into a single column. This process is applied across all sheets in the dataset.
 
-*Data Analysis and Visualization:
+* Data Analysis and Visualization:
+
 Leveraging DAX functions like SWITCH, SUM, CALCULATE, DIVIDE, and FORMAT, the dashboard calculates crucial metrics such as total working days, present days, WFH count, and sick leave count.
 
-*Key Metrics and Visualizations:
+* Key Metrics and Visualizations:
+  
 The dashboard showcases key performance indicators (KPIs) like Present %, WFH %, and Sick Leave %. Additionally, detailed tables provide per-day percentages for Present %, WFH %, and line graphs depict trends over time.
